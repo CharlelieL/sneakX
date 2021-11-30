@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS MLRChausslam;
+DROP DATABASE IF EXISTS MLR1;
 
-CREATE DATABASE IF NOT EXISTS MLRChausslam;
-USE MLRChausslam;
+CREATE DATABASE IF NOT EXISTS MLR1;
+USE MLR1;
 # -----------------------------------------------------------------------------
 #       TABLE : IMAGE
 # -----------------------------------------------------------------------------
@@ -26,6 +26,20 @@ CREATE  INDEX I_FK_IMAGE_CHAUSSURE
 
 CREATE  INDEX I_FK_IMAGE_CHAUSSURE1
      ON IMAGE (IDCHAUSSURE_1 ASC);
+
+# -----------------------------------------------------------------------------
+#       TABLE : UTILISATEUR
+# -----------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS UTILISATEUR
+ (
+   IDUTILISATEUR INTEGER(2) NOT NULL AUTO_INCREMENT ,
+   NOM CHAR(32) NOT NULL  ,
+   PRENOM CHAR(32) NOT NULL  ,
+   MOTDEPASSE CHAR(255) NOT NULL  
+   , PRIMARY KEY (IDUTILISATEUR) 
+ ) 
+ comment = "";
 
 # -----------------------------------------------------------------------------
 #       TABLE : MARQUE
@@ -126,6 +140,30 @@ CREATE  INDEX I_FK_CHAUSSURE_MARQUE3
      ON CHAUSSURE (IDMARQUE_3 ASC);
 
 # -----------------------------------------------------------------------------
+#       TABLE : FAVORIS
+# -----------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS FAVORIS
+ (
+   IDUTILISATEUR INTEGER(2) NOT NULL  ,
+   IDCHAUSSURE BIGINT(4) NOT NULL  ,
+   CHAUSSFAVORIS BOOL NULL  
+   , PRIMARY KEY (IDUTILISATEUR,IDCHAUSSURE) 
+ ) 
+ comment = "";
+
+# -----------------------------------------------------------------------------
+#       INDEX DE LA TABLE FAVORIS
+# -----------------------------------------------------------------------------
+
+
+CREATE  INDEX I_FK_FAVORIS_UTILISATEUR
+     ON FAVORIS (IDUTILISATEUR ASC);
+
+CREATE  INDEX I_FK_FAVORIS_CHAUSSURE
+     ON FAVORIS (IDCHAUSSURE ASC);
+
+# -----------------------------------------------------------------------------
 #       TABLE : IDENTIFICATION
 # -----------------------------------------------------------------------------
 
@@ -197,6 +235,16 @@ ALTER TABLE CHAUSSURE
 ALTER TABLE CHAUSSURE 
   ADD FOREIGN KEY FK_CHAUSSURE_MARQUE3 (IDMARQUE_3)
       REFERENCES MARQUE (IDMARQUE) ;
+
+
+ALTER TABLE FAVORIS 
+  ADD FOREIGN KEY FK_FAVORIS_UTILISATEUR (IDUTILISATEUR)
+      REFERENCES UTILISATEUR (IDUTILISATEUR) ;
+
+
+ALTER TABLE FAVORIS 
+  ADD FOREIGN KEY FK_FAVORIS_CHAUSSURE (IDCHAUSSURE)
+      REFERENCES CHAUSSURE (IDCHAUSSURE) ;
 
 
 ALTER TABLE IDENTIFICATION 
