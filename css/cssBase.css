@@ -1,0 +1,84 @@
+.GrandRef{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:space-between;
+    
+}
+
+.GrandRefA {
+   display: flex;
+   justify-content:space-between;
+   text-align: center;
+   background-color: cadetblue;
+   
+}
+
+.GrandRefB {
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.ContainerHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    text-align: center;
+}
+
+
+.ContainerMenu{
+    display : flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.Connexion{
+    margin-right: 20px;
+}
+
+.body{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+.Ref2{
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.Ref1{
+    background-color: violet;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    
+}
+
+.imgChaussure{
+    height: 300px ;
+    width: 300px;
+}
+
+.RechercheBarre{
+    display: flex;
+    background-color: brown;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: left;
+    width: 1000px;
+}
+
+#BarreDeRecherche{
+    width: 750px;
+    
+}
