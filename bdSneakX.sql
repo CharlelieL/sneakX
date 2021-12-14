@@ -128,7 +128,7 @@ CREATE  INDEX I_FK_CHAUSSURE_MARQUEP
      ON CHAUSSURE (IDMARQUEP ASC);
 
 CREATE  INDEX I_FK_CHAUSSURE_MARQUEC
-     ON CHAUSSURE (IDMARQUECchaussure ASC);
+     ON CHAUSSURE (IDMARQUEC ASC);
 
 
 # -----------------------------------------------------------------------------
