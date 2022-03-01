@@ -2,29 +2,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: red;
+    /* background-color: red; */
     text-align: center;
     align-items: center;
 }
 
 .RechercheBarre{
     display: flex;
-    background-color: brown;
+    /* background-color: brown; */
     padding-top: 25px;
     padding-bottom: 25px;
     justify-content: left;
-    width: 1000px;
+    /* width: 1000px; */
+    height: 110px;
 }
 
 #BarreDeRecherche{
-    width: 750px;
-    
+    width: 750px; 
 }
 
 .ContainerMenu{
     display : flex;
     flex-direction: row;
-    background-color: yellow;
 }
 
 .Connexion{
@@ -34,89 +33,77 @@
     margin-right: 20px;
 }
 
-.nav1, .nav2, .nav3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /*height: 100vh;*/
-    background: rgb(58, 56, 56);
-  }
-  .nav1, .nav2, .nav3  {
-    text-decoration: none;
-    border: 3px solid yellow;
-    color: transparent;
-    /*padding: 40px 80px;*/
-    /*font-size: 28px;*/
-    font-family: sans-serif;
-    letter-spacing: 5px;
-    transition: all 0.5s;
-    position: relative;
-  }
-  .nav:before {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: yellow;
-    background: rgb(34, 34, 34);
-    /*font-size: 28px;*/
-    top: 0;
-    left: 100%;
-    font-family: sans-serif;
-    letter-spacing: 5px;
-    transition: all 1s;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    transform: scale(0) rotatey(0);
-    opacity: 0;
-  }
-  .nav1:before{
-    content: "Connexion";
-  }
-  .nav2:before{
-    content: "Insertion";
-  }
-  .nav3:before{
-    content: "Contact";
-  }
-  .nav:hover:before {
-    transform: scale(1) rotatey(360deg);
-    left: 0;
-    opacity: 1;
-  }
-  .nav:after {
-    content: ".";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: yellow;
-    background: rgb(34, 34, 34);
-    /*font-size: 28px;*/
-    top: 0;
-    left: 0;
-    font-family: sans-serif;
-    letter-spacing: 5px;
-    transition: all 1s;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    transform: scale(1) rotatey(0);
-    opacity: 1;
-  }
-  .nav1:after{
-    content: "Connexion";
-  }
-  .nav2:after{
-    content: "Insertion";
-  }
-  .nav3:after{
-    content: "Contact";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+span{
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
 }
-  .nav:hover:after {
-    transform: scale(0) rotatey(360deg);
-    left: -100%;
-    opacity: 0;
-  }
-  
+span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn1 a:before,
+.btn1 a:after{
+  position: absolute;
+  content: "CONNEXION";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.btn2 a:before,
+.btn2 a:after{
+  position: absolute;
+  content: "CONTACT";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.btn3 a:before,
+.btn3 a:after{
+  position: absolute;
+  content: "INSERTION";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+
+span a:before{
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+

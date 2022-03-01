@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="..\css\cssHeader.css">
     <link rel="short icon" type="image/png" href="..\css\image\logo_SNEAKX_icone.png">
+
     <title>Document</title>
     <div class="ContainerHead">
         <div class="logo">
@@ -14,11 +15,16 @@
             <input id="BarreDeRecherche" type="text" name="search" placeholder="Rechercher">
         </div>
         <div  class="ContainerMenu"> 
-            <form class="ContainerMenu">         
-                <input type="">
-                <a class="nav1" href=..\vue\vConnexion.php>Connexion</a>
-                <a class="nav2" href=..\vue\vContact.php>Insertion</a>
-                <a class="nav3" href=..\vue\vInsertion.php>Contact</a>
+            <form class="ContainerMenu">
+                <span class="btn1"><a class="nav1" href=..\vue\vConnexion.php>
+                    <input  type="button">
+                </a></span>
+                <span class="btn2"><a  href=..\vue\vContact.php>
+                    <input  type="button">
+                </a></span>
+                <span class="btn3"><a class="nav3" href=..\vue\vInsertion.php>
+                    <input  type="button">
+                </a></span>
             </form>
         </div>
     </div>
