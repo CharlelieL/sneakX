@@ -9,13 +9,27 @@
 <body>   
 </body>
 <footer>
-    <div class="footer">
-        <div class="Container1">
-            <a href="..\vue\vInscription.php" >INSCRIPTION</a>
-            <a href="..\vue\vConnexion.php" >CONNEXION</a>
-            <a href="..\vue\vContact.php" >CONTACT</a> 
+    <div  class="ContainerMenu"> 
+            <form class="ContainerMenu">
+                <span1 class="btn4"><a class="nav1" href=..\vue\vConnexion.php>
+                    <input  type="hidden">
+                </a></span1>
+                <span1 class="btn5">
+                    <a  href=..\vue\vContact.php>
+                        <input  type="hidden">
+                    </a>
+                    
+                </span1>
+                
+                <span1 class="btn6"><a class="nav3" href=..\vue\vInsertion.php>
+                    <input  type="hidden">
+                </a></span1>
+                
+            </form>
+            
         </div>
-
     </div>
+    
+    <h5>Clément ETIENNE, Arthur POLIT, Charlélie LOPEZ, Enzo NOEL<br>SneakX 2022</h5>
 </footer>
 </html>

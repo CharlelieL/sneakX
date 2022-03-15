@@ -12,18 +12,18 @@
             <a href="..\vue\vBase.php"><img src="..\css\image\logo_Final.png" width=190px height=100px ></a>
         </div>
         <div class="RechercheBarre">
-            <input id="BarreDeRecherche" type="text" name="search" placeholder="Rechercher">
+            <input id="BarreDeRecherche" type="text" name="search" placeholder="Recherche une paire de chaussure !">
         </div>
         <div  class="ContainerMenu"> 
             <form class="ContainerMenu">
                 <span class="btn1"><a class="nav1" href=..\vue\vConnexion.php>
-                    <input  type="button">
+                    <input  type="hidden">
                 </a></span>
                 <span class="btn2"><a  href=..\vue\vContact.php>
-                    <input  type="button">
+                    <input  type="hidden">
                 </a></span>
                 <span class="btn3"><a class="nav3" href=..\vue\vInsertion.php>
-                    <input  type="button">
+                    <input  type="hidden">
                 </a></span>
             </form>
         </div>

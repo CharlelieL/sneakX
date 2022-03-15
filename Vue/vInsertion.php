@@ -29,9 +29,12 @@
             <option value="Homme">Homme</option>
             <option value="Femme">Femme</option>
             <option value="Unisexe">Unisexe</option>
-        </select><br><br>
+        </select>
+        
+        <br><br>
         <input type="button" value="Inserer">
     </form>
 </body>
+<br><br>
 <?php include_once "vFooter.php" ?>
 </html>

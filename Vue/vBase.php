@@ -23,49 +23,58 @@
         </div>
     </div>
     <div class="body">
-        <a href="https://stockx.com/"> <img src="..\css\image\reducNoel.jpg"> </a>
+        
         <h1>NOS GRANDES REFERENCES</h1>
         <div class="GrandRef">
             <div class="GrandRefA">
                 <div class="Ref1">
-                    DUNK LOW 
+                     
                     <a href="https://stockx.com/"> <img class="imgChaussure" src="..\css\image\dunklow.png"></a>
+                    DUNK LOW
                 </div>
                 <div class="Ref1">
-                    DUNK HIGH
+                    
                     <a href="https://stockx.com/"><img class="imgChaussure" src="..\css\image\dunkhigh.png"></a>
+                    DUNK HIGH
                 </div>
                 <div class="Ref1">
-                    JORDAN 4
+                    
                     <a href="https://stockx.com/"><img class="imgChaussure" src="..\css\image\jordan4.png" ></a>
+                    JORDAN 4
                 </div>
                 <div class="Ref1">
-                    ADIDAS YEEZY
+                    
                     <a href="https://stockx.com/"><img class="imgChaussure" src="..\css\image\yeezy.png" ></a>
+                    ADIDAS YEEZY
                 </div>
             </div>
             <br><br><br><br><br><br>
             <div class="GrandRefB">
                 <div class="Ref2">
-                    JORDAN 1 LOW
+                    
                     <a href="https://stockx.com/"><img class="imgChaussure" src="..\css\image\jordan1low.png" ></a>
+                    JORDAN 1 LOW
                 </div>
                 <div class="Ref2">
-                    AIR FORCE
+                    
                     <a href="https://stockx.com/"><img class="imgChaussure" src="..\css\image\airforce.png" ></a>
+                    AIR FORCE
                 </div>
                 <div class="Ref2">
-                    JORDAN 1 HIGH
+                    
                     <a href="https://stockx.com/"><img class="imgChaussure" src="..\css\image\jordan1high.png" ></a>
+                    JORDAN 1 HIGH
                 </div>
                 <div class="Ref2">
-                    JORDAN 1 HIGH-ZOOM
+                    
                     <a href="https://stockx.com/"><img class="imgChaussure" src="..\css\image\jordan1highzoom.png" ></a>
+                    JORDAN 1 HIGH-ZOOM
                 </div>
             </div>
         </div>
     </div>
 </body>
+<br><br><br><br><br><br><br>
 <?php
     include_once "vFooter.php"
 ?>

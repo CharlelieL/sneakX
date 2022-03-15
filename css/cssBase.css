@@ -10,7 +10,7 @@
    display: flex;
    justify-content:space-between;
    text-align: center;
-   background-color: cadetblue;
+   
    
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     justify-content:space-between;
     text-align: center;
-    background-color: chartreuse;
+
 }
 
 .body{
@@ -30,19 +30,21 @@ h1{
     text-align: center;
 }
 
-.Ref2{
+/* .Ref2{
     background-color: orange;
     height: 300px;
     width: 300px;
     align-items: center;
-}
+} */
 
-.Ref1{
-    background-color: violet;
+.Ref1, .Ref2{
+    background-color:lightgrey;
     height: 300px;
     width: 300px;
     align-items: center;
-    
+    border: 1px  black;
+    border-radius: 50%;
+    border-style: solid;
 }
 
 .imgChaussure{
@@ -123,4 +125,3 @@ from{transform:rotatey(0)}
 to{transform:rotatey(1turn)}}
 	
 /*****fin carrousel 3d automatique*****/
-
