@@ -11,17 +11,17 @@
 <footer>
     <div  class="ContainerMenu"> 
             <form class="ContainerMenu">
-                <span1 class="btn4"><a class="nav1" href=vue\vConnexion.php>
+                <span1 class="btn4"><a class="nav1" href="./?action=connexion">
                     <input  type="hidden">
                 </a></span1>
                 <span1 class="btn5">
-                    <a  href=vue\vContact.php>
+                    <a  href="./?action=contact">
                         <input  type="hidden">
                     </a>
                     
                 </span1>
                 
-                <span1 class="btn6"><a class="nav3" href=vue\vInsertion.php>
+                <span1 class="btn6"><a class="nav3" href="./?action=crud">
                     <input  type="hidden">
                 </a></span1>
                 

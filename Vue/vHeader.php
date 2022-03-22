@@ -16,7 +16,7 @@
         </div>
         <form action="./?action=recherche" class="RechercheBarre" method="post">
             <input id="BarreDeRecherche" type="text" name="search" placeholder="Rechercher">
-            <input type="submit" name ="btnRecherche" value="OK">
+            <!-- <input type="submit" name ="btnRecherche" value="OK"> -->
         </form>
         
         <div  class="ContainerMenu"> 
