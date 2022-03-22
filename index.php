@@ -18,5 +18,5 @@ else{
 $fichier = controleurPrincipal($action);
 include "Controlleur/$fichier";
 
-include "Vue/vFooter.php";
+include_once "Vue/vFooter.php";
 ?>

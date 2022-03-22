@@ -1,8 +1,6 @@
-
-
 <link rel="stylesheet" href="css\cssPaireBase.css">
-<?php
 
+<?php
 include_once "vHeader.php";
 ?> 
 
@@ -10,9 +8,6 @@ include_once "vHeader.php";
     <h1><?php echo $nbPaireResultat."<br>"; ?></h1>
 </div> 
 
-<?php
-
-?>
 <div class="card-container">
     <?php for ($i = 0; $i < count($cPaire); $i++): ?>
 

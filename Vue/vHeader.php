@@ -9,22 +9,25 @@
     <title>Document</title>
     <div class="ContainerHead">
         <div class="logo">
-            <a href="index.php"><img src="css\image\logo_Final.png" width=190px height=100px ></a>
+        <a href="index.php"><img src="css\image\logo_Final.png" width=190px height=100px ></a>
+         
+            
+
         </div>
-        <form action="Controlleur/cRecherche.php " class="RechercheBarre" method="post">
+        <form action="./?action=recherche" class="RechercheBarre" method="post">
             <input id="BarreDeRecherche" type="text" name="search" placeholder="Rechercher">
-            <input type="submit" name ="btnRecherche"value="OK">
+            <input type="submit" name ="btnRecherche" value="OK">
         </form>
         
         <div  class="ContainerMenu"> 
             <form class="ContainerMenu">
-                <span class="btn1"><a class="nav1" href=vue\vConnexion.php>
+                <span class="btn1"><a class="nav1" href="./?action=connexion">
                     <input  type="hidden">
                 </a></span>
-                <span class="btn2"><a  href=vue\vContact.php>
+                <span class="btn2"><a  href="./?action=contact">
                     <input  type="hidden">
                 </a></span>
-                <span class="btn3"><a class="nav3" href=vue\vInsertion.php>
+                <span class="btn3"><a class="nav3" href="./?action=crud">
                     <input  type="hidden">
                 </a></span>
             </form>

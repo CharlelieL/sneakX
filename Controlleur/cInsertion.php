@@ -11,8 +11,9 @@ $base=getBase();
 ;
 
 // appel du script de vue qui permet de gerer l'affichage des donnees
-
+include_once "Vue/vHeader.php";
 include_once "Vue/vInsertion.php";
+include_once "Vue/vFooter.php";
 
 
 

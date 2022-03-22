@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="..\css\cssCCI.css">
+<link rel="stylesheet" href="css\cssCCI.css">
 <link rel="stylesheet" href="..\css\cssHeader.css">
 <link rel="stylesheet" href="..\css\cssFooter.css">
 
     <title>Contact</title>
-    <?php include_once "vHeader.php" ?>
+
 </head>
 <body>
     <div class="formulaire">
@@ -14,5 +14,5 @@
     </div>
    
 </body>
-<?php include_once "vFooter.php" ?>
+
 </html>

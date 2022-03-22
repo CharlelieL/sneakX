@@ -10,9 +10,9 @@ $base=getBase();
 ;
 
 // appel du script de vue qui permet de gerer l'affichage des donnees
-
-include_once "Vue/vBase.php";
-
+include_once "Vue/vHeader.php";
+include "vue/vConnexion.php";
+include_once "Vue/vFooter.php";
 
 
 ?>

@@ -1,26 +1,19 @@
-<title>
-    <?= $rechercheReturn[$i]["NOM"] ?>
-</title>
+<link rel="stylesheet" href="css\cssPaireBase.css">
+<link rel="stylesheet" href="..\css\cssHeader.css">
+<link rel="stylesheet" href="..\css\cssFooter.css">
 
-<style type="text/css">
-            @import url("css/programmation.css");
-</style>
+<div class="card-container">
+    <?php for ($i = 0; $i < count($rechercheReturn); $i++): ?>
 
-<?php
-
-for ($i = 0; $i < count($rechercheReturn); $i++) {
-    ?>
-    <div class="card" >
+        <div class="card" >
             <div class="img">
-                <?= $rechercheReturn[$i]["NOM"] ?>
+                <img class="imgVoiture" src="" alt="">
+                <?= $rechercheReturn[$i]["NOM"] ?> 
                 &nbsp;PRIX :&nbsp;
-                <?= $rechercheReturn[$i]["PRIXRETAI"]."€"?>
+                <?= $rechercheReturn[$i]["PRIXRETAI"]."€";?>
             </div>
-    </div>
-        <br><br>
-    </div>
-    
-    <?php
-} 
+        </div>
+    <?php endfor ?>
+</div>
 
-?>
+<br><br><br><br>

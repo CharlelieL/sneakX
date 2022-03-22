@@ -1,10 +1,9 @@
 <title>Connexion</title>
 
-<link rel="stylesheet" href="..\css\cssCCI.css">
+<link rel="stylesheet" href="css\cssCCI.css">
 <link rel="stylesheet" href="..\css\cssHeader.css">
 <link rel="stylesheet" href="..\css\cssFooter.css">
 
-<?php include_once "vHeader.php" ?>
     <div class="formulaire">
         <h1>Se connecter</h1>
         
@@ -34,5 +33,5 @@
     </div>
 
 </body>
-<?php include_once "vFooter.php" ?>
+
 </html>

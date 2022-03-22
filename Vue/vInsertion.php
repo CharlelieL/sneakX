@@ -1,11 +1,9 @@
-<link rel="stylesheet" href="..\css\cssCCI.css">
+<link rel="stylesheet" href="css\cssCCI.css">
 <link rel="stylesheet" href="..\css\cssHeader.css">
 <link rel="stylesheet" href="..\css\cssFooter.css">
 <link rel="short icon" type="image/png" href="css\image\logo_SNEAKX_icone.png">
     <title>CRUD</title>
-    <?php
-        include_once "vHeader.php"
-    ?>
+
 </head>
 <body>
     <div class="crud">
@@ -69,5 +67,5 @@
         </div>
     </div>
 </body>
-<?php include_once "vFooter.php" ?>
+
 </html>
