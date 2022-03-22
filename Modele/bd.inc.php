@@ -3,7 +3,7 @@
 function connexionPDO() {
     $login = "root";
     $mdp = "";
-    $bd = "bdresto";
+    $bd = "bdsneakx";
     $serveur = "localhost";
 
     try {

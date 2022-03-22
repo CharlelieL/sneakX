@@ -55,7 +55,7 @@ span1 a{
 .btn6 a:before,
 .btn6 a:after{
   position: absolute;
-  content: "INSERTION";
+  content: "CRUD";
   height: 55px;
   width: 180px;
   display: flex;

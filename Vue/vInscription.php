@@ -15,8 +15,12 @@
         <input id="Prenom" type="text" name="Prenom" placeholder="Prenom"><br><br>
         <input type="button" value="Valider">
         <p>Deja un compte ? <a href="..\vue\vConnexion.php" >Connecte-toi !</a></p>
-        
+        <a href=".?/action=detail&<?=  ?>"></a>
     </form>
+
+    
+
+
     <form action="..\vue\vBase.php">
         <button type="submit">Acceuil</button>
     </form>

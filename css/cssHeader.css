@@ -83,7 +83,7 @@ span a{
 .btn3 a:before,
 .btn3 a:after{
   position: absolute;
-  content: "INSERTION";
+  content: "CRUD";
   height: 55px;
   width: 180px;
   display: flex;

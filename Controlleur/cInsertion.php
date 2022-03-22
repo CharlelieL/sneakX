@@ -1,3 +1,4 @@
+
 <?php
 include_once "Modele/bd.base.inc.php";
 
@@ -11,7 +12,7 @@ $base=getBase();
 
 // appel du script de vue qui permet de gerer l'affichage des donnees
 
-include_once "Vue/vBase.php";
+include_once "Vue/vInsertion.php";
 
 
 

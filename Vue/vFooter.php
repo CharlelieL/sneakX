@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..\css\cssFooter.css">
+    <link rel="stylesheet" href="css\cssFooter.css">
     <title>Document</title>
 </head>
 <body>   
@@ -11,17 +11,17 @@
 <footer>
     <div  class="ContainerMenu"> 
             <form class="ContainerMenu">
-                <span1 class="btn4"><a class="nav1" href=..\vue\vConnexion.php>
+                <span1 class="btn4"><a class="nav1" href=vue\vConnexion.php>
                     <input  type="hidden">
                 </a></span1>
                 <span1 class="btn5">
-                    <a  href=..\vue\vContact.php>
+                    <a  href=vue\vContact.php>
                         <input  type="hidden">
                     </a>
                     
                 </span1>
                 
-                <span1 class="btn6"><a class="nav3" href=..\vue\vInsertion.php>
+                <span1 class="btn6"><a class="nav3" href=vue\vInsertion.php>
                     <input  type="hidden">
                 </a></span1>
                 

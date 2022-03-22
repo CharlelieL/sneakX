@@ -50,7 +50,9 @@ h1{
 .imgChaussure{
     height: 300px ;
     width: 300px;
+    border-radius: 50%;
 }
+
 
 /*****carrousel 3d automatique*****/
 

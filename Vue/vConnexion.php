@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..\css\cssCCI.css">
-    <title>Connexion</title>
-    <?php include_once "vHeader.php" ?>
-</head>
-<body>
+<title>Connexion</title>
+
+<link rel="stylesheet" href="..\css\cssCCI.css">
+<link rel="stylesheet" href="..\css\cssHeader.css">
+<link rel="stylesheet" href="..\css\cssFooter.css">
+
+<?php include_once "vHeader.php" ?>
     <div class="formulaire">
         <h1>Se connecter</h1>
         
